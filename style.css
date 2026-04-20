@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container-header {
+  background-color: black; 
+  z-index: 999; position: 
+  sticky; top: 0; 
+  bottom: 0; 
+  overflow: hidden; 
+}
+h1 {
+  display: inline-block;
+}
+.Teks-1 {
+  color: red;
+}
+.Teks-2 {
+  color: aqua;
+}
+nav {
+  border: 1px green solid;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+nav > ul > li {
+  list-style-type: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: yellow;
+}
+.container-judul-main {
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  padding: 20px;
+  height: auto;
+}
+h4 {
+  font-size: x-large;
+  display: inline-block;
+}
+.judul-main {
+  color: aliceblue;
+}
+.second-main {
+  color: aqua;
+}
+.Teks-main {
+  color: #ffffff;
+  height: 100px;
+  align-content: center;
+}
+.container-table {
+    background-color: black;
+    color: white;
+}
+h2 {
+  font-size: 30px;
+  color: aquamarine;
+}
+.container-table {
+  padding: 30px;
+}
+span {
+  color: red;
+}
+.tables {
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.table-barang {
+  border: 1px solid red;
+  margin: 20px;
+}
+.table-cita {
+  border: 1px solid yellow;
+  display: grid;
+  justify-content: end;
+  margin: 20px;
+}
+.table-pencapaian {
+  border: 1px solid green;
+  margin: 20px;
+}
+.table-motivasi {
+  border: 1px solid white;
+  display: grid;
+  justify-content: end;
+  margin: 20px;
+}
+.container-footer {
+  background-color: black;
+  color: white;
+}
